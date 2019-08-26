@@ -1,9 +1,10 @@
 create table bears (
-  id integer PRIMARY KEY,
+  id integer,
   name text,
   age integer,
   gender text,
   color text,
   temperament text,
-  alive boolean
+  alive boolean,
+  primary key (id)
 );
