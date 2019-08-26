@@ -5,6 +5,5 @@ create table bears (
   gender text,
   color text,
   temperament text,
-  alive boolean,
-  primary key (id)
+  alive boolean
 );
